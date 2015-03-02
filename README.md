@@ -6,7 +6,7 @@ A minimalistic pixelized Jekyll theme used by a few [HackBulgaria] classes.
 
 1. Fork the repository. See the links on your right.
 2. Bundle the repository with: `bundle install`.
-3. Run the Jekyll server with: `bundle install jekyll serve -w`
+3. Run the Jekyll server with: `bundle exec jekyll serve -w`
 
 A server will be running on http://localhost:4000 by default.
 
