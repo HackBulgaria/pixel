@@ -1,0 +1,17 @@
+---
+layout: layout
+title: "Lectures"
+---
+
+<section class="content">
+  <ul class="listing">
+    {% for repo in site.github.public_repositories %}
+      {% if repo.name contains 'lecture' %}
+      <li>
+        <span>{{ repo.pushed_at | date: "%B %e, %Y" }}</span> <a href="{{ repo.homepage }}">{{ repo.description }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+

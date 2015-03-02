@@ -1,0 +1,12 @@
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+gems:
+  - jekyll-sitemap
+
+name: Your Class Name
+url: http://classname.hackbulgaria.com
+description: Your class name description
+twitter: hackbulgaria
